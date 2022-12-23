@@ -1,0 +1,12 @@
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\bin\Debug\net6.0\Website.Shared.deps.json
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\bin\Debug\net6.0\Website.Shared.dll
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\bin\Debug\net6.0\Website.Shared.pdb
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.csproj.AssemblyReference.cache
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.AssemblyInfoInputs.cache
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.AssemblyInfo.cs
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.dll
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\refint\Website.Shared.dll
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\Website.Shared.pdb
+C:\Users\Mulhamsth\github\E-Commerce-Website\Website\Website\Shared\obj\Debug\net6.0\ref\Website.Shared.dll
