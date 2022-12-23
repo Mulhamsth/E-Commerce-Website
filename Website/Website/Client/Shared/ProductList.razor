@@ -14,7 +14,7 @@
 				<p>@product.Description</p>
 				@if(product.OriginalPrice > product.Price)
 				{
-					<h6 class="text-muted orginal-price">$@product.OriginalPrice</h6>
+					<h6 class="text-muted original-price">$@product.OriginalPrice</h6>
 				}
 				<h5 class="price">$@product.Price</h5>
 			</div>
@@ -25,17 +25,19 @@
 @code {
 	List<Product> products = new List<Product>{
 		new Product{
+			Id = 1,
 			CategoryId = 1,
 			Title = "MX Master 3",
-			Description = "",
+			Description = "An eronomic Maus for profissional use",
 			Image = "https://cdn.idealo.com/folder/Product/201968/1/201968116/s2_produktbild_gross_1/logitech-mx-master-3s.jpg",
 			Price = 99.99m,
 			OriginalPrice = 104.99m
 		},
 		new Product{
+			Id = 2,
 			CategoryId = 1,
 			Title = "MX Keys",
-			Description = "",
+			Description = "An eronomic Keyboard for profissional use",
 			Image = "https://resource.logitech.com/content/dam/logitech/en/products/keyboards/mx-keys-for-business/gallery/mx-keys-business-keyboard-gallery-rus-graphite-1.png",
 			Price = 109.99m,
 			OriginalPrice = 139.99m

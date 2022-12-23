@@ -33,6 +33,27 @@ a, .btn-link {
 .validation-message {
     color: red;
 }
+.media-img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 6px;
+    margin-bottom:10px;
+    transition: transform .2s;
+}
+.media-img:hover{
+    transform:scale(1.1);
+}
+.media-img-wrapper {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.original-price{
+    text-decoration: line-through;
+}
+.price{
+    color: green;
+}
 
 #blazor-error-ui {
     background: lightyellow;
