@@ -1,0 +1,45 @@
+﻿<ul class="list-unstyled">
+	@foreach (var product in products)
+	{
+		<li class="media my-3">
+			<div class="media-img-wrapper mr-2">
+				<a href="/product/@product.Id">
+					<img class="media-img" src="@product.Image" alt="@product.Title">
+				</a>
+			</div>
+			<div class="media-body">
+				<a href="/product/@product.Id">
+					<h4 class="mb-0">@product.Title</h4>	
+				</a>
+				<p>@product.Description</p>
+				@if(product.OriginalPrice > product.Price)
+				{
+					<h6 class="text-muted orginal-price">$@product.OriginalPrice</h6>
+				}
+				<h5 class="price">$@product.Price</h5>
+			</div>
+		</li>
+	}
+</ul>
+
+@code {
+	List<Product> products = new List<Product>{
+		new Product{
+			CategoryId = 1,
+			Title = "MX Master 3",
+			Description = "",
+			Image = "https://cdn.idealo.com/folder/Product/201968/1/201968116/s2_produktbild_gross_1/logitech-mx-master-3s.jpg",
+			Price = 99.99m,
+			OriginalPrice = 104.99m
+		},
+		new Product{
+			CategoryId = 1,
+			Title = "MX Keys",
+			Description = "",
+			Image = "https://resource.logitech.com/content/dam/logitech/en/products/keyboards/mx-keys-for-business/gallery/mx-keys-business-keyboard-gallery-rus-graphite-1.png",
+			Price = 109.99m,
+			OriginalPrice = 139.99m
+		}
+	};
+
+}
