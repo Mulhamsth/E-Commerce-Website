@@ -55,6 +55,11 @@ a, .btn-link {
     color: green;
 }
 
+.media {
+    display: flex;
+    gap: 1rem;
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
